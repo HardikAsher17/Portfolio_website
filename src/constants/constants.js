@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'A model to predict Covid-19 cases in India',
     description: "We created a machine learning model using polynomial regression which can be used to predict the covid cases in the near future and will also provide a graphical representation of the actual cases and the predicted cases in a region.",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['Machine Learning', 'Artificial Intelligence'],
     source: 'https://drive.google.com/drive/u/0/search?q=internship',
     visit: 'https://drive.google.com/drive/u/0/search?q=internship',
