@@ -5,10 +5,10 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 import Button from '../../styles/GlobalComponents/Button';
 
 const data = [
-  { number: 10, text: 'Open Source Projects'},
-  { number: 8.8, text: 'Cumulative GPA (till Sem VI)', },
-  { number: 323, text: 'GRE Score', },
-  { number: 100, text: 'TOEFL Score', }
+  { str: '10+', text: 'Open Source Projects'},
+  { str: 8.8, text: 'Cumulative GPA (till Sem VI)', },
+  { str: 323, text: 'GRE Score', },
+  { str: 3, text: 'Research Papers in Review', }
 ];
 
 const Acomplishments = () => (
@@ -18,7 +18,7 @@ const Acomplishments = () => (
       {data.map((card, index) => (
         <Box key={index}>
           <BoxNum>
-            {card.number}
+            {card.str}
           </BoxNum>
           <BoxText>
             {card.text}
