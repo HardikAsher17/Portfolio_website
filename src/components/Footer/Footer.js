@@ -22,7 +22,8 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Address: 3801, Parkview Lane, Apt. 26D, Irvine, CA- 92612.</Slogan>
+          <Slogan>
+            <LinkItem href="https://goo.gl/maps/X8ixP9HcjCEQbG7eA">Address: 3801, Parkview Lane, Apt. 26D, Irvine, CA- 92612.</LinkItem></Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/HardikAsher17">
