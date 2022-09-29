@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiTerminalBadge, DiReact, DiPython } from 'react-icons/di';
+import { DiFirebase, DiTerminalBadge, DiReact, DiPython, DiBrackets } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Coding Languages</ListTitle>
           <ListParagraph>
             Have worked with <br/>
-            C, C++, Java, Python and Dart
+            Python, Java, C, C++ and Dart
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,12 +44,22 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <DiBrackets size="50px" />
+        <ListContainer>
+          <ListTitle>Other technologies</ListTitle>
+          <ListParagraph>
+            Completed courses in <br/>
+            Blockchain Smart Contracts and Dapps.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
         <DiTerminalBadge size="50px" />
         <ListContainer>
-          <ListTitle>Other works</ListTitle>
+          <ListTitle>Related works</ListTitle>
           <ListParagraph>
             Worked on projects involving <br/>
-            Artificial Intelligence, Machine Learning as well as UI/UX Desigining
+            Artificial Intelligence, Machine Learning as well as UI/UX Desigining.
           </ListParagraph>
         </ListContainer>
       </ListItem>

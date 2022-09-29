@@ -13,17 +13,17 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel: +91-8169352927">+91-8169352927</LinkItem>
+          <LinkItem href="tel: +1 (949) 418-2482">+1 (949) 418-2482</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto: hardik.asher@somaiya.edu">hardik.asher@somaiya.edu</LinkItem>
+          <LinkItem href="mailto: hasher1@uci.edu">hasher1@uci.edu</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-          Address: 302, Giriraj CHS, Factory Lane, Borivali West, Mumbai-400092.</Slogan>
+          Address: 3801, Parkview Lane, Apt. 26D, Irvine, CA- 92612.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/HardikAsher17">

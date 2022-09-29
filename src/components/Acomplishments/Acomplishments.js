@@ -6,10 +6,14 @@ import Button from '../../styles/GlobalComponents/Button';
 
 const data = [
   { str: '10+', text: 'Open Source Projects'},
-  { str: 8.8, text: 'Cumulative GPA (till Sem VI)', },
+  { str: 3.7, text: 'Cumulative GPA', },
   { str: 323, text: 'GRE Score', },
-  { str: 3, text: 'Research Papers in Review', }
+  { str: 2, text: 'Research Papers Published', }
 ];
+
+const openInNewTab = url => {
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
 
 const Acomplishments = () => (
   <Section>
@@ -27,7 +31,7 @@ const Acomplishments = () => (
       ))}
     </Boxes>
     <br/>
-    <Button onClick={() => window.location = 'https://drive.google.com/file/d/1-KLPg4Mz0uuH69rzaJPX_9Q0Kvx5b3zP/view?usp=sharing' }>My Resume</Button>
+    <Button onClick={() => openInNewTab('https://drive.google.com/file/d/1PUxH_4lrsDiVbRQZbmPiHvzdalkPjEue/view?usp=sharing') }>My Resume</Button>
     <SectionDivider />
   </Section>
 );

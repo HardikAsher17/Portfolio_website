@@ -12,7 +12,7 @@ const Hero = () => (
         Welcome to My Personal Portfolio!
       </SectionTitle>
       <SectionText>
-        My name is Hardik Asher and I am a budding Computer Science Engineer. I am currently pursuing my B.Tech. Degree in Computer Science from K. J. Somaiya College of Engineering in Mumbai. This portfolio is a recapitulation of my learnings and accomplishments!
+        My name is Hardik Asher and I am a budding Computer Science Engineer. I am currently pursuing Master of Computer Science from University of California, Irvine. I have completed my B. Tech. in Computer Engineering from K. J. Somaiya College of Engineering in Mumbai, India. This portfolio is a recapitulation of my learnings and accomplishments!
       </SectionText>
     </LeftSection>
   </Section>
